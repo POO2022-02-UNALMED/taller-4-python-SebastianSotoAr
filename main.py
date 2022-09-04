@@ -24,7 +24,7 @@ if __name__ == "__main__":
     print(grupo5.listadoAlumnos)
 
     grupo3.listadoAsignaturas(as1="Ciencias", as2="Quimica", as3="Ingles")
-    print(len(grupo3._asignaturas))
+    print(len(grupo3.getAsignaturas()))
 
     Grupo.asignarNombre("Grado 1")
     print(Grupo.grado)
